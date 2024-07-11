@@ -18,8 +18,8 @@ labels <- ifelse(labels == "Normal", 0, 1)
 labels_test <- ifelse(labels_test == "Normal", 0, 1)
 
 # Calculate the median value for each gene
-median_values <- apply(features, 1, median)
-median_values_test <- apply(features_test, 1, median)
+# median_values <- apply(features, 2, median)
+# median_values_test <- apply(features_test, 2, median)
 
 # Binarize the gene expression values based on the median value
 binarized_features <- t(apply(features, 1, function(row) {
@@ -46,7 +46,7 @@ params <- list(objective = "binary:logistic", eval_metric = "logloss")
 xgb_model <- xgboost(params = params, data = dtrain, nrounds = 100)
 xgb_pred <- predict(xgb_model, dtest)
 xgb_pred_labels <- ifelse(xgb_pred > 0.5, 1, 0)
-
+print(xgb_pred_labels)
 # Evaluate the model using the ROC curve and AUC
 y_test_factor <- factor(y_test, levels = c(1, 0))
 xgb_pred_labels_factor <- factor(xgb_pred_labels, levels = c(1, 0))

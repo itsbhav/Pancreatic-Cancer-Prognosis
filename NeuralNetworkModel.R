@@ -22,8 +22,8 @@ labels <- ifelse(labels == "Normal", 0, 1)
 labels_test <- ifelse(labels_test == "Normal", 0, 1)
 
 # Calculate the median value for each gene
-median_values <- apply(features, 1, median)
-median_values_test <- apply(features_test, 1, median)
+# median_values <- apply(features, 2, median)
+# median_values_test <- apply(features_test, 2, median)
 
 # Binarize the gene expression values based on the median value
 binarized_features <- t(apply(features, 1, function(row) {
@@ -49,13 +49,13 @@ model <- nnet(X_train, y_train, size = 11, entropy = TRUE, MaxNWts = 10000, maxi
 
 # Evaluate the model using the ROC curve and AUC
 y_pred_proba <- predict(model, X_test, type = "raw")[, 1]
-roc_obj <- roc(y_test, y_pred_proba)
-auc_value <- auc(roc_obj)
-print(paste("Area under the ROC curve:", auc_value))
+# roc_obj <- roc(y_test, y_pred_proba)
+# auc_value <- auc(roc_obj)
+# print(paste("Area under the ROC curve:", auc_value))
 
 # Get predicted values
 y_pred <- ifelse(y_pred_proba > 0.5, 1, 0)  # Convert probabilities to class predictions
-
+print(y_pred)
 # Calculate accuracy
 y_test_factor <- factor(y_test, levels = c(1, 0))
 y_pred_factor <- factor(y_pred, levels = c(1, 0))
