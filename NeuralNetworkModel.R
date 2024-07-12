@@ -49,9 +49,9 @@ model <- nnet(X_train, y_train, size = 11, entropy = TRUE, MaxNWts = 10000, maxi
 
 # Evaluate the model using the ROC curve and AUC
 y_pred_proba <- predict(model, X_test, type = "raw")[, 1]
-# roc_obj <- roc(y_test, y_pred_proba)
-# auc_value <- auc(roc_obj)
-# print(paste("Area under the ROC curve:", auc_value))
+roc_obj <- roc(y_test, y_pred_proba)
+auc_value <- auc(roc_obj)
+print(paste("Area under the ROC curve:", auc_value))
 
 # Get predicted values
 y_pred <- ifelse(y_pred_proba > 0.5, 1, 0)  # Convert probabilities to class predictions
