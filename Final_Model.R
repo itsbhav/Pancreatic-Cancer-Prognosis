@@ -5,6 +5,8 @@ library(dplyr)
 library(caret)
 library(pROC)
 library(nnet)
+library(xgboost)
+library(lightgbm)
 
 # Read the data from the CSV file
 data <- read.csv("C:/Users/bhave/OneDrive/Desktop/Minor/new_file1.csv", stringsAsFactors = TRUE)
@@ -69,9 +71,33 @@ xgb_pred <- predict(xgb_model, dtest)
 xgb_pred_labels <- ifelse(xgb_pred > 0.5, 1, 0)
 print(xgb_pred_labels)
 
+# LightGBM
+# Convert data to LightGBM dataset format
+lgb_train <- lgb.Dataset(data = as.matrix(X_train), label = y_train)
+lgb_test <- lgb.Dataset(data = as.matrix(X_test), label = y_test, reference = lgb_train)
+
+# Set parameters and train the LightGBM model
+params <- list(
+  objective = "binary",
+  metric = "binary_logloss",
+  num_iterations = 100,
+  learning_rate = 0.1
+)
+
+lgb_model <- lgb.train(
+  params = params,
+  data = lgb_train,
+  valids = list(test = lgb_test),
+  early_stopping_rounds = 10
+)
+
+# Predict using the LightGBM model
+lgb_pred <- predict(lgb_model, newdata = as.matrix(X_test))
+lgb_pred_labels <- ifelse(lgb_pred > 0.5, 1, 0)
+print(lgb_pred_labels)
 
 # Combine the predictions from all three models
-combined_preds <- cbind(svm_pred_labels, gbm_pred_labels, y_pred,xgb_pred_labels)
+combined_preds <- cbind(svm_pred_labels, gbm_pred_labels, y_pred,xgb_pred_labels,lgb_pred_labels)
 
 # Function to get the majority vote
 majority_vote <- function(x) {
