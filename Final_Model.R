@@ -80,8 +80,8 @@ lgb_test <- lgb.Dataset(data = as.matrix(X_test), label = y_test, reference = lg
 params <- list(
   objective = "binary",
   metric = "binary_logloss",
-  num_iterations = 100,
-  learning_rate = 0.1
+  num_iterations = 120,
+  learning_rate = 0.2
 )
 
 lgb_model <- lgb.train(
