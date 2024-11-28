@@ -1,0 +1,102 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+Reactome Gene Sets,6,R-HSA-8874081,MET activates PTK2 signaling,,-7.9,1.6e+02,25,30286,30,26,4,15,7.1,1301|2335|3918|4233,COL11A1|FN1|LAMC2|MET,-3.6,MyList
+Reactome Gene Sets,6,R-HSA-8875878,MET promotes cell motility,,-7.4,1.1e+02,21,30286,41,26,4,15,7.1,1301|2335|3918|4233,COL11A1|FN1|LAMC2|MET,-3.3,MyList
+Canonical Pathways,11,M198,PID SYNDECAN 1 PATHWAY,,-7.2,1e+02,20,30286,46,26,4,15,7.1,1295|1300|1301|4233,COL8A1|COL10A1|COL11A1|MET,-3.3,MyList
+Reactome Gene Sets,6,R-HSA-1474228,Degradation of the extracellular matrix,,-6.9,42,14,30286,140,26,5,19,7.7,1295|1300|1301|2335|3918,COL8A1|COL10A1|COL11A1|FN1|LAMC2,-3.2,MyList
+GO Biological Processes,19,GO:0001706,endoderm formation,19_GO:0032502 developmental process,-6.8,83,18,30286,56,26,4,15,7.1,1295|1301|2335|22943,COL8A1|COL11A1|FN1|DKK1,-3.2,MyList
+Reactome Gene Sets,6,R-HSA-1474244,Extracellular matrix organization,,-6.8,23,11,30286,300,26,6,23,8.3,1295|1300|1301|2335|3918|4680,COL8A1|COL10A1|COL11A1|FN1|LAMC2|CEACAM6,-3.2,MyList
+Reactome Gene Sets,6,R-HSA-3000171,Non-integrin membrane-ECM interactions,,-6.7,79,18,30286,59,26,4,15,7.1,1300|1301|2335|3918,COL10A1|COL11A1|FN1|LAMC2,-3.2,MyList
+Reactome Gene Sets,6,R-HSA-2022090,Assembly of collagen fibrils and other multimeric structures,,-6.7,76,17,30286,61,26,4,15,7.1,1295|1300|1301|3918,COL8A1|COL10A1|COL11A1|LAMC2,-3.2,MyList
+Canonical Pathways,11,M160,PID AVB3 INTEGRIN PATHWAY,,-6.3,63,16,30286,74,26,4,15,7.1,1295|1300|1301|2335,COL8A1|COL10A1|COL11A1|FN1,-2.9,MyList
+Reactome Gene Sets,6,R-HSA-6806834,Signaling by MET,,-6.2,59,15,30286,79,26,4,15,7.1,1301|2335|3918|4233,COL11A1|FN1|LAMC2|MET,-2.9,MyList
+GO Biological Processes,19,GO:0007492,endoderm development,19_GO:0032502 developmental process,-6.2,58,15,30286,81,26,4,15,7.1,1295|1301|2335|22943,COL8A1|COL11A1|FN1|DKK1,-2.9,MyList
+GO Biological Processes,19,GO:2000027,regulation of animal organ morphogenesis,19_GO:0032502 developmental process,-6,52,14,30286,89,26,4,15,7.1,4070|6662|22943|23213,TACSTD2|SOX9|DKK1|SULF1,-2.8,MyList
+Reactome Gene Sets,6,R-HSA-1474290,Collagen formation,,-6,52,14,30286,90,26,4,15,7.1,1295|1300|1301|3918,COL8A1|COL10A1|COL11A1|LAMC2,-2.8,MyList
+GO Biological Processes,19,GO:0002063,chondrocyte development,19_GO:0032502 developmental process,-5.8,1.3e+02,20,30286,27,26,3,12,6.3,1301|6662|23213,COL11A1|SOX9|SULF1,-2.6,MyList
+GO Biological Processes,19,GO:0030198,extracellular matrix organization,19_GO:0009987 cellular process,-5.5,21,9.9,30286,274,26,5,19,7.7,1295|1300|1301|6662|23213,COL8A1|COL10A1|COL11A1|SOX9|SULF1,-2.4,MyList
+GO Biological Processes,19,GO:0043062,extracellular structure organization,19_GO:0009987 cellular process,-5.5,21,9.9,30286,275,26,5,19,7.7,1295|1300|1301|6662|23213,COL8A1|COL10A1|COL11A1|SOX9|SULF1,-2.4,MyList
+Canonical Pathways,11,M5884,NABA CORE MATRISOME,,-5.5,21,9.9,30286,275,26,5,19,7.7,1295|1300|1301|2335|3918,COL8A1|COL10A1|COL11A1|FN1|LAMC2,-2.4,MyList
+GO Biological Processes,19,GO:0045229,external encapsulating structure organization,19_GO:0009987 cellular process,-5.5,21,9.8,30286,276,26,5,19,7.7,1295|1300|1301|6662|23213,COL8A1|COL10A1|COL11A1|SOX9|SULF1,-2.4,MyList
+GO Biological Processes,19,GO:0001704,formation of primary germ layer,19_GO:0032502 developmental process,-5.5,38,12,30286,122,26,4,15,7.1,1295|1301|2335|22943,COL8A1|COL11A1|FN1|DKK1,-2.4,MyList
+Canonical Pathways,11,M3005,NABA COLLAGENS,,-5.1,79,15,30286,44,26,3,12,6.3,1295|1300|1301,COL8A1|COL10A1|COL11A1,-2.1,MyList
+Reactome Gene Sets,6,R-HSA-8948216,Collagen chain trimerization,,-5.1,79,15,30286,44,26,3,12,6.3,1295|1300|1301,COL8A1|COL10A1|COL11A1,-2.1,MyList
+GO Biological Processes,19,GO:0035987,endodermal cell differentiation,19_GO:0032502 developmental process,-5.1,76,15,30286,46,26,3,12,6.3,1295|1301|2335,COL8A1|COL11A1|FN1,-2.1,MyList
+GO Biological Processes,19,GO:0008544,epidermis development,19_GO:0032502 developmental process,-5.1,17,8.8,30286,335,26,5,19,7.7,3855|3918|4233|6662|22943,KRT7|LAMC2|MET|SOX9|DKK1,-2.1,MyList
+GO Biological Processes,19,GO:0030111,regulation of Wnt signaling pathway,19_GO:0050896 response to stimulus,-5,17,8.7,30286,342,26,5,19,7.7,6659|6662|7162|22943|23213,SOX4|SOX9|TPBG|DKK1|SULF1,-2.1,MyList
+GO Biological Processes,19,GO:0040017,positive regulation of locomotion,19_GO:0040011 locomotion,-4.9,11,7.6,30286,621,26,6,23,8.3,2335|3918|4233|4680|6662|7162,FN1|LAMC2|MET|CEACAM6|SOX9|TPBG,-2,MyList
+GO Biological Processes,19,GO:0060688,regulation of morphogenesis of a branching structure,19_GO:0032502 developmental process,-4.9,66,14,30286,53,26,3,12,6.3,4070|6662|23213,TACSTD2|SOX9|SULF1,-2,MyList
+GO Biological Processes,19,GO:0007369,gastrulation,19_GO:0032502 developmental process,-4.9,27,10,30286,171,26,4,15,7.1,1295|1301|2335|22943,COL8A1|COL11A1|FN1|DKK1,-2,MyList
+GO Biological Processes,19,GO:0035239,tube morphogenesis,19_GO:0032502 developmental process,-4.7,10,7.2,30286,682,26,6,23,8.3,1295|2335|4070|4233|6659|6662,COL8A1|FN1|TACSTD2|MET|SOX4|SOX9,-1.8,MyList
+Reactome Gene Sets,6,R-HSA-1442490,Collagen degradation,,-4.6,55,13,30286,64,26,3,12,6.3,1295|1300|1301,COL8A1|COL10A1|COL11A1,-1.8,MyList
+GO Biological Processes,19,GO:1905330,regulation of morphogenesis of an epithelium,19_GO:0032502 developmental process,-4.6,54,12,30286,65,26,3,12,6.3,4070|6662|23213,TACSTD2|SOX9|SULF1,-1.8,MyList
+Canonical Pathways,11,M18,PID INTEGRIN1 PATHWAY,,-4.6,53,12,30286,66,26,3,12,6.3,1301|2335|3918,COL11A1|FN1|LAMC2,-1.8,MyList
+Reactome Gene Sets,6,R-HSA-1650814,Collagen biosynthesis and modifying enzymes,,-4.6,52,12,30286,67,26,3,12,6.3,1295|1300|1301,COL8A1|COL10A1|COL11A1,-1.7,MyList
+GO Biological Processes,19,GO:0031016,pancreas development,19_GO:0032502 developmental process,-4.5,50,12,30286,70,26,3,12,6.3,4233|6659|6662,MET|SOX4|SOX9,-1.7,MyList
+GO Biological Processes,19,GO:0003170,heart valve development,19_GO:0032502 developmental process,-4.5,48,12,30286,73,26,3,12,6.3,6659|6662|22943,SOX4|SOX9|DKK1,-1.7,MyList
+GO Biological Processes,19,GO:0010810,regulation of cell-substrate adhesion,19_GO:0050789 regulation of biological process,-4.4,21,8.8,30286,221,26,4,15,7.1,1295|2335|4070|4680,COL8A1|FN1|TACSTD2|CEACAM6,-1.6,MyList
+GO Biological Processes,19,GO:0002062,chondrocyte differentiation,19_GO:0032502 developmental process,-4.3,42,11,30286,84,26,3,12,6.3,1301|6662|23213,COL11A1|SOX9|SULF1,-1.5,MyList
+GO Biological Processes,19,GO:0045785,positive regulation of cell adhesion,19_GO:0048518 positive regulation of biological process,-4.3,12,7.2,30286,485,26,5,19,7.7,1295|2335|4680|6659|84978,COL8A1|FN1|CEACAM6|SOX4|FRMD5,-1.5,MyList
+Reactome Gene Sets,6,R-HSA-216083,Integrin cell surface interactions,,-4.3,41,11,30286,85,26,3,12,6.3,1295|1300|2335,COL8A1|COL10A1|FN1,-1.5,MyList
+GO Biological Processes,19,GO:0060485,mesenchyme development,19_GO:0032502 developmental process,-4.3,19,8.3,30286,247,26,4,15,7.1,2335|6659|6662|22943,FN1|SOX4|SOX9|DKK1,-1.5,MyList
+GO Biological Processes,19,GO:0060993,kidney morphogenesis,19_GO:0032502 developmental process,-4.2,39,11,30286,89,26,3,12,6.3,4070|6659|6662,TACSTD2|SOX4|SOX9,-1.5,MyList
+GO Biological Processes,19,GO:0060828,regulation of canonical Wnt signaling pathway,19_GO:0050896 response to stimulus,-4.1,17,7.9,30286,268,26,4,15,7.1,6659|6662|7162|22943,SOX4|SOX9|TPBG|DKK1,-1.4,MyList
+GO Biological Processes,19,GO:0090596,sensory organ morphogenesis,19_GO:0032502 developmental process,-4.1,17,7.8,30286,275,26,4,15,7.1,1295|1301|6659|6662,COL8A1|COL11A1|SOX4|SOX9,-1.3,MyList
+GO Biological Processes,19,GO:0043588,skin development,19_GO:0032502 developmental process,-4,17,7.7,30286,279,26,4,15,7.1,3855|4233|6662|22943,KRT7|MET|SOX9|DKK1,-1.3,MyList
+KEGG Pathway,24,hsa04974,Protein digestion and absorption,,-4,34,9.8,30286,103,26,3,12,6.3,1295|1300|1301,COL8A1|COL10A1|COL11A1,-1.3,MyList
+GO Biological Processes,19,GO:0007507,heart development,19_GO:0032502 developmental process,-4,10,6.5,30286,570,26,5,19,7.7,1301|2335|6659|6662|22943,COL11A1|FN1|SOX4|SOX9|DKK1,-1.3,MyList
+GO Biological Processes,19,GO:0048729,tissue morphogenesis,19_GO:0032502 developmental process,-4,10,6.5,30286,572,26,5,19,7.7,1301|4070|4233|6662|22943,COL11A1|TACSTD2|MET|SOX9|DKK1,-1.3,MyList
+GO Biological Processes,19,GO:0030335,positive regulation of cell migration,19_GO:0040011 locomotion,-3.9,10,6.4,30286,580,26,5,19,7.7,2335|3918|4233|4680|6662,FN1|LAMC2|MET|CEACAM6|SOX9,-1.3,MyList
+WikiPathways,27,WP3932,Focal adhesion PI3K Akt mTOR signaling pathway,,-3.9,15,7.4,30286,302,26,4,15,7.1,1301|2335|3918|4233,COL11A1|FN1|LAMC2|MET,-1.3,MyList
+GO Biological Processes,19,GO:0001822,kidney development,19_GO:0032502 developmental process,-3.9,15,7.4,30286,303,26,4,15,7.1,4070|6659|6662|23213,TACSTD2|SOX4|SOX9|SULF1,-1.3,MyList
+GO Biological Processes,19,GO:0048598,embryonic morphogenesis,19_GO:0032502 developmental process,-3.9,9.9,6.4,30286,587,26,5,19,7.7,1295|1301|2335|6662|22943,COL8A1|COL11A1|FN1|SOX9|DKK1,-1.3,MyList
+GO Biological Processes,19,GO:0098773,skin epidermis development,19_GO:0032502 developmental process,-3.9,30,9.3,30286,115,26,3,12,6.3,4233|6662|22943,MET|SOX9|DKK1,-1.2,MyList
+GO Biological Processes,19,GO:0072001,renal system development,19_GO:0032502 developmental process,-3.9,15,7.2,30286,313,26,4,15,7.1,4070|6659|6662|23213,TACSTD2|SOX4|SOX9|SULF1,-1.2,MyList
+GO Biological Processes,19,GO:2000147,positive regulation of cell motility,19_GO:0040011 locomotion,-3.8,9.6,6.3,30286,607,26,5,19,7.7,2335|3918|4233|4680|6662,FN1|LAMC2|MET|CEACAM6|SOX9,-1.2,MyList
+GO Biological Processes,19,GO:0010811,positive regulation of cell-substrate adhesion,19_GO:0048518 positive regulation of biological process,-3.8,28,8.9,30286,124,26,3,12,6.3,1295|2335|4680,COL8A1|FN1|CEACAM6,-1.2,MyList
+GO Biological Processes,19,GO:0048593,camera-type eye morphogenesis,19_GO:0032502 developmental process,-3.7,26,8.6,30286,133,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,-1.1,MyList
+GO Biological Processes,19,GO:0072006,nephron development,19_GO:0032502 developmental process,-3.6,25,8.4,30286,139,26,3,12,6.3,4070|6662|23213,TACSTD2|SOX9|SULF1,-1,MyList
+GO Biological Processes,19,GO:0090090,negative regulation of canonical Wnt signaling pathway,19_GO:0048519 negative regulation of biological process,-3.6,24,8.2,30286,145,26,3,12,6.3,6662|7162|22943,SOX9|TPBG|DKK1,-1,MyList
+GO Biological Processes,19,GO:0030177,positive regulation of Wnt signaling pathway,19_GO:0048518 positive regulation of biological process,-3.6,24,8.1,30286,146,26,3,12,6.3,6659|22943|23213,SOX4|DKK1|SULF1,-1,MyList
+GO Biological Processes,19,GO:0048592,eye morphogenesis,19_GO:0032502 developmental process,-3.5,22,7.7,30286,160,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,-0.89,MyList
+GO Biological Processes,19,GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,19_GO:0048518 positive regulation of biological process,-3.4,20,7.5,30286,171,26,3,12,6.3,2335|6662|7162,FN1|SOX9|TPBG,-0.81,MyList
+GO Biological Processes,19,GO:0051216,cartilage development,19_GO:0032502 developmental process,-3.4,20,7.4,30286,174,26,3,12,6.3,1301|6662|23213,COL11A1|SOX9|SULF1,-0.8,MyList
+GO Biological Processes,19,GO:0030178,negative regulation of Wnt signaling pathway,19_GO:0048519 negative regulation of biological process,-3.3,20,7.3,30286,177,26,3,12,6.3,6662|7162|22943,SOX9|TPBG|DKK1,-0.78,MyList
+GO Biological Processes,19,GO:0008285,negative regulation of cell population proliferation,19_GO:0048519 negative regulation of biological process,-3.3,7.4,5.3,30286,791,26,5,19,7.7,6659|6662|7162|23213|27242,SOX4|SOX9|TPBG|SULF1|TNFRSF21,-0.76,MyList
+WikiPathways,27,WP5087,Pleural mesothelioma,,-3.3,11,5.9,30286,439,26,4,15,7.1,2335|3918|4233|22943,FN1|LAMC2|MET|DKK1,-0.76,MyList
+GO Biological Processes,19,GO:0001667,ameboidal-type cell migration,19_GO:0009987 cellular process,-3.2,18,6.9,30286,197,26,3,12,6.3,2335|6286|7162,FN1|S100P|TPBG,-0.67,MyList
+GO Biological Processes,19,GO:0051960,regulation of nervous system development,19_GO:0032502 developmental process,-3.2,10,5.7,30286,468,26,4,15,7.1,2335|7162|22943|27242,FN1|TPBG|DKK1|TNFRSF21,-0.67,MyList
+WikiPathways,27,WP306,Focal adhesion,,-3.2,18,6.9,30286,199,26,3,12,6.3,2335|3918|4233,FN1|LAMC2|MET,-0.67,MyList
+KEGG Pathway,24,hsa04510,Focal adhesion,,-3.2,17,6.8,30286,202,26,3,12,6.3,2335|3918|4233,FN1|LAMC2|MET,-0.66,MyList
+GO Biological Processes,19,GO:0001501,skeletal system development,19_GO:0032502 developmental process,-3.1,9.3,5.5,30286,501,26,4,15,7.1,1300|1301|6662|23213,COL10A1|COL11A1|SOX9|SULF1,-0.58,MyList
+GO Biological Processes,19,GO:0061448,connective tissue development,19_GO:0032502 developmental process,-3,15,6.3,30286,231,26,3,12,6.3,1301|6662|23213,COL11A1|SOX9|SULF1,-0.5,MyList
+Reactome Gene Sets,6,R-HSA-201681,TCF dependent signaling in response to WNT,,-3,15,6.3,30286,232,26,3,12,6.3,6659|6662|22943,SOX4|SOX9|DKK1,-0.5,MyList
+Reactome Gene Sets,6,R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,,-3,8.7,5.3,30286,534,26,4,15,7.1,1301|2335|3918|4233,COL11A1|FN1|LAMC2|MET,-0.49,MyList
+GO Biological Processes,19,GO:0051896,regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,19_GO:0050896 response to stimulus,-2.9,14,6,30286,253,26,3,12,6.3,2335|6662|7162,FN1|SOX9|TPBG,-0.4,MyList
+GO Biological Processes,19,GO:0007423,sensory organ development,19_GO:0032502 developmental process,-2.8,8,5,30286,581,26,4,15,7.1,1295|1301|6659|6662,COL8A1|COL11A1|SOX4|SOX9,-0.37,MyList
+GO Biological Processes,19,GO:0003007,heart morphogenesis,19_GO:0032502 developmental process,-2.8,13,5.9,30286,263,26,3,12,6.3,1301|6659|6662,COL11A1|SOX4|SOX9,-0.37,MyList
+GO Biological Processes,19,GO:0030855,epithelial cell differentiation,19_GO:0032502 developmental process,-2.7,7.4,4.8,30286,631,26,4,15,7.1,3855|4233|6659|6662,KRT7|MET|SOX4|SOX9,-0.25,MyList
+GO Biological Processes,19,GO:0010632,regulation of epithelial cell migration,19_GO:0040011 locomotion,-2.7,12,5.5,30286,298,26,3,12,6.3,4070|4233|6662,TACSTD2|MET|SOX9,-0.22,MyList
+GO Biological Processes,19,GO:0043009,chordate embryonic development,19_GO:0032502 developmental process,-2.7,7.2,4.7,30286,650,26,4,15,7.1,1301|6662|22943|23213,COL11A1|SOX9|DKK1|SULF1,-0.21,MyList
+GO Biological Processes,19,GO:0060562,epithelial tube morphogenesis,19_GO:0032502 developmental process,-2.6,11,5.3,30286,314,26,3,12,6.3,4070|4233|6662,TACSTD2|MET|SOX9,-0.17,MyList
+GO Biological Processes,19,GO:0009792,embryo development ending in birth or egg hatching,19_GO:0032502 developmental process,-2.6,6.9,4.6,30286,671,26,4,15,7.1,1301|6662|22943|23213,COL11A1|SOX9|DKK1|SULF1,-0.17,MyList
+GO Biological Processes,19,GO:0000902,cell morphogenesis,19_GO:0032502 developmental process,-2.6,6.8,4.5,30286,681,26,4,15,7.1,4233|6277|7162|22943,MET|S100A6|TPBG|DKK1,-0.16,MyList
+Reactome Gene Sets,6,R-HSA-195721,Signaling by WNT,,-2.6,11,5.1,30286,331,26,3,12,6.3,6659|6662|22943,SOX4|SOX9|DKK1,-0.12,MyList
+GO Biological Processes,19,GO:0043010,camera-type eye development,19_GO:0032502 developmental process,-2.5,10,5.1,30286,335,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,-0.11,MyList
+WikiPathways,27,WP4172,PI3K Akt signaling pathway,,-2.5,10,5.1,30286,339,26,3,12,6.3,2335|3918|4233,FN1|LAMC2|MET,-0.1,MyList
+GO Biological Processes,19,GO:0051129,negative regulation of cellular component organization,19_GO:0048519 negative regulation of biological process,-2.5,6.4,4.3,30286,733,26,4,15,7.1,4070|4233|6662|22943,TACSTD2|MET|SOX9|DKK1,-0.062,MyList
+KEGG Pathway,24,hsa04151,PI3K-Akt signaling pathway,,-2.5,9.7,4.9,30286,359,26,3,12,6.3,2335|3918|4233,FN1|LAMC2|MET,-0.045,MyList
+GO Biological Processes,19,GO:0001654,eye development,19_GO:0032502 developmental process,-2.4,9.2,4.7,30286,381,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,0,MyList
+GO Biological Processes,19,GO:0150063,visual system development,19_GO:0032502 developmental process,-2.4,9.1,4.7,30286,385,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,0,MyList
+GO Biological Processes,19,GO:0048880,sensory system development,19_GO:0032502 developmental process,-2.4,8.9,4.6,30286,391,26,3,12,6.3,1295|6659|6662,COL8A1|SOX4|SOX9,0,MyList
+GO Biological Processes,19,GO:2000146,negative regulation of cell motility,19_GO:0040011 locomotion,-2.3,8.8,4.6,30286,396,26,3,12,6.3,4070|23213|84978,TACSTD2|SULF1|FRMD5,0,MyList
+GO Biological Processes,19,GO:0050678,regulation of epithelial cell proliferation,19_GO:0050789 regulation of biological process,-2.3,8.6,4.5,30286,407,26,3,12,6.3,4070|6662|23213,TACSTD2|SOX9|SULF1,0,MyList
+GO Biological Processes,19,GO:0043254,regulation of protein-containing complex assembly,19_GO:0050789 regulation of biological process,-2.3,8.4,4.4,30286,418,26,3,12,6.3,4233|6662|22943,MET|SOX9|DKK1,0,MyList
+GO Biological Processes,19,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,19_GO:0050896 response to stimulus,-2.3,8.3,4.4,30286,419,26,3,12,6.3,4233|6662|23213,MET|SOX9|SULF1,0,MyList
+GO Biological Processes,19,GO:0031400,negative regulation of protein modification process,19_GO:0048519 negative regulation of biological process,-2.2,8.2,4.4,30286,426,26,3,12,6.3,6659|9052|22943,SOX4|GPRC5A|DKK1,0,MyList
+GO Biological Processes,19,GO:0040013,negative regulation of locomotion,19_GO:0040011 locomotion,-2.2,8.1,4.4,30286,431,26,3,12,6.3,4070|23213|84978,TACSTD2|SULF1|FRMD5,0,MyList
+GO Biological Processes,19,GO:0048514,blood vessel morphogenesis,19_GO:0032502 developmental process,-2.2,8.1,4.4,30286,431,26,3,12,6.3,1295|2335|6659,COL8A1|FN1|SOX4,0,MyList
+GO Biological Processes,19,GO:0002009,morphogenesis of an epithelium,19_GO:0032502 developmental process,-2.2,7.6,4.2,30286,458,26,3,12,6.3,4070|4233|6662,TACSTD2|MET|SOX9,0,MyList
+Reactome Gene Sets,6,R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,,-2.2,7.6,4.2,30286,459,26,3,12,6.3,2335|4233|22943,FN1|MET|DKK1,0,MyList
+GO Biological Processes,19,GO:0022407,regulation of cell-cell adhesion,19_GO:0050789 regulation of biological process,-2.1,7,4,30286,496,26,3,12,6.3,4680|6659|27242,CEACAM6|SOX4|TNFRSF21,0,MyList
+GO Biological Processes,19,GO:0044089,positive regulation of cellular component biogenesis,19_GO:0048518 positive regulation of biological process,-2,6.9,3.9,30286,507,26,3,12,6.3,4233|6662|7162,MET|SOX9|TPBG,0,MyList
+WikiPathways,27,WP5434,Pathways in cancer,,-2,6.9,3.9,30286,509,26,3,12,6.3,2335|3918|4233,FN1|LAMC2|MET,0,MyList

@@ -1,27 +1,22 @@
 # Import required libraries
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix
 import torch
-from transformers import ViTForImageClassification, SwinForImageClassification, ViTFeatureExtractor
-from torch.utils.data import DataLoader, Dataset
+# from transformers import ViTForImageClassification, SwinForImageClassification, ViTFeatureExtractor
+# from torch.utils.data import DataLoader, Dataset
 from torch import nn
 import torch.optim as optim
 
-# Load the data
-data = pd.read_csv("C:/Users/bhave/OneDrive/Desktop/Minor/new_file1.csv")
-test_data = pd.read_csv("C:/Users/bhave/OneDrive/Desktop/Minor/test_data_new.csv")
-
-# Data preparation
-features = data.drop(columns=['ID', 'group'])
-labels = data['group'].map({'Normal': 0, 'Tumor': 1})
-features_test = test_data.drop(columns=['ID', 'group'])
-labels_test = test_data['group'].map({'Normal': 0, 'Tumor': 1})
-
-# Train-test split
-X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+# Load the datasets from CSV files (these were created in R)
+X_train = pd.read_csv('X_train.csv', index_col=0)  # Replace with the actual path
+y_train = pd.read_csv('y_train.csv', index_col=0)  # Replace with the actual path
+X_test = pd.read_csv('X_test.csv', index_col=0)    # Replace with the actual path
+y_test = pd.read_csv('y_test.csv', index_col=0)    # Replace with the actual path
+y_test = y_test['y_test'].map({'Normal': 0, 'Tumor': 1})
+y_train = y_train['y_train'].map({'Normal': 0, 'Tumor': 1})
 
 # Standardize the features
 scaler = StandardScaler()
@@ -77,6 +72,7 @@ with torch.no_grad():
     f1 = f1_score(y_test, y_pred)
     roc_auc = roc_auc_score(y_test, model(X_test)[:, 1])
     conf_matrix = confusion_matrix(y_test, y_pred)
+    print(y_test,y_pred)
 
 print(f"Accuracy: {accuracy}")
 print(f"Precision: {precision}")

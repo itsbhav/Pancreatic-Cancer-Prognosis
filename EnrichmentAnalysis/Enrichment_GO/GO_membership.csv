@@ -1,0 +1,102 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-5.5,M5884,NABA CORE MATRISOME,M1,1,0
+1,-4.1,GO:0090596,sensory organ morphogenesis,M1,1,0
+1,-4.3,GO:0045785,positive regulation of cell adhesion,M1,1,0
+1,-2.5,hsa04151,PI3K-Akt signaling pathway,M1,1,0
+1,-3.9,GO:0048598,embryonic morphogenesis,M1,1,0
+1,-2.6,GO:0000902,cell morphogenesis,M1,1,0
+1,-6.2,R-HSA-6806834,Signaling by MET,M1,1,0
+1,-4.6,GO:1905330,regulation of morphogenesis of an epithelium,M1,1,0
+1,-2.7,GO:0010632,regulation of epithelial cell migration,M1,1,0
+1,-4.4,GO:0010810,regulation of cell-substrate adhesion,M1,1,0
+1,-3.2,hsa04510,Focal adhesion,M1,1,0
+1,-6.7,R-HSA-3000171,Non-integrin membrane-ECM interactions,M1,1,0
+1,-2.2,GO:0002009,morphogenesis of an epithelium,M1,1,0
+1,-2.1,GO:0022407,regulation of cell-cell adhesion,M1,1,0
+1,-5.1,GO:0008544,epidermis development,M1,1,0
+1,-7.9,R-HSA-8874081,MET activates PTK2 signaling,M1,1,0
+1,-3.7,GO:0048593,camera-type eye morphogenesis,M1,1,0
+1,-4.6,R-HSA-1442490,Collagen degradation,M1,1,0
+1,-2.4,GO:0048880,sensory system development,M1,1,0
+1,-3.6,GO:0072006,nephron development,M1,1,0
+1,-6,GO:2000027,regulation of animal organ morphogenesis,M1,1,0
+1,-7.4,R-HSA-8875878,MET promotes cell motility,M1,1,0
+1,-2.3,GO:2000146,negative regulation of cell motility,M1,1,0
+1,-3.8,GO:0010811,positive regulation of cell-substrate adhesion,M1,1,0
+1,-4.6,R-HSA-1650814,Collagen biosynthesis and modifying enzymes,M1,1,0
+1,-2.4,GO:0150063,visual system development,M1,1,0
+1,-5.5,GO:0045229,external encapsulating structure organization,M1,1,0
+1,-5.1,GO:0035987,endodermal cell differentiation,M1,1,0
+1,-2.2,R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,M1,1,0
+1,-4,hsa04974,Protein digestion and absorption,M1,1,0
+1,-2.7,GO:0030855,epithelial cell differentiation,M1,1,0
+1,-4.3,R-HSA-216083,Integrin cell surface interactions,M1,1,0
+1,-3.3,WP5087,Pleural mesothelioma,M1,1,0
+1,-3,GO:0061448,connective tissue development,M1,1,0
+1,-5.5,GO:0001704,formation of primary germ layer,M1,1,0
+1,-2.8,GO:0003007,heart morphogenesis,M1,1,0
+1,-4.3,GO:0002062,chondrocyte differentiation,M1,1,0
+1,-5.1,M3005,NABA COLLAGENS,M1,1,0
+1,-2.5,GO:0051129,negative regulation of cellular component organization,M1,1,0
+1,-2.2,GO:0031400,negative regulation of protein modification process,M1,1,0
+1,-4,GO:0048729,tissue morphogenesis,M1,1,0
+1,-2.6,GO:0009792,embryo development ending in birth or egg hatching,M1,1,0
+1,-4.5,GO:0003170,heart valve development,M1,1,0
+1,-2.2,GO:0040013,negative regulation of locomotion,M1,1,0
+1,-5.5,GO:0030198,extracellular matrix organization,M1,1,0
+1,-2.6,R-HSA-195721,Signaling by WNT,M1,1,0
+1,-7.2,M198,PID SYNDECAN 1 PATHWAY,M1,1,0
+1,-4.7,GO:0035239,tube morphogenesis,M1,1,0
+1,-5.1,R-HSA-8948216,Collagen chain trimerization,M1,1,0
+1,-3,R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,M1,1,0
+1,-2.2,GO:0048514,blood vessel morphogenesis,M1,1,0
+1,-6.8,GO:0001706,endoderm formation,M1,1,0
+1,-6.3,M160,PID AVB3 INTEGRIN PATHWAY,M1,1,0
+1,-4,GO:0007507,heart development,M1,1,0
+1,-4.5,GO:0031016,pancreas development,M1,1,0
+1,-2.5,GO:0043010,camera-type eye development,M1,1,0
+1,-4.1,GO:0060828,regulation of canonical Wnt signaling pathway,M1,1,0
+1,-4.6,M18,PID INTEGRIN1 PATHWAY,M1,1,0
+1,-2.3,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,M1,1,0
+1,-2.4,GO:0001654,eye development,M1,1,0
+1,-2.3,GO:0050678,regulation of epithelial cell proliferation,M1,1,0
+1,-3.2,GO:0051960,regulation of nervous system development,M1,1,0
+1,-4.9,GO:0040017,positive regulation of locomotion,M1,1,0
+1,-3.2,GO:0001667,ameboidal-type cell migration,M1,1,0
+1,-4,GO:0043588,skin development,M1,1,0
+1,-3.9,GO:0098773,skin epidermis development,M1,1,0
+1,-3.9,GO:0072001,renal system development,M1,1,0
+1,-3.9,WP3932,Focal adhesion PI3K Akt mTOR signaling pathway,M1,1,0
+1,-2,WP5434,Pathways in cancer,M1,1,0
+1,-2.5,WP4172,PI3K Akt signaling pathway,M1,1,0
+1,-3,R-HSA-201681,TCF dependent signaling in response to WNT,M1,1,0
+1,-3.4,GO:0051216,cartilage development,M1,1,0
+1,-6,R-HSA-1474290,Collagen formation,M1,1,0
+1,-5,GO:0030111,regulation of Wnt signaling pathway,M1,1,0
+1,-6.9,R-HSA-1474228,Degradation of the extracellular matrix,M1,1,0
+1,-4.9,GO:0007369,gastrulation,M1,1,0
+1,-3.2,WP306,Focal adhesion,M1,1,0
+1,-3.9,GO:0030335,positive regulation of cell migration,M1,1,0
+1,-5.5,GO:0043062,extracellular structure organization,M1,1,0
+1,-3.3,GO:0030178,negative regulation of Wnt signaling pathway,M1,1,0
+1,-4.9,GO:0060688,regulation of morphogenesis of a branching structure,M1,1,0
+1,-2.7,GO:0043009,chordate embryonic development,M1,1,0
+1,-2.9,GO:0051896,regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,M1,1,0
+1,-3.6,GO:0030177,positive regulation of Wnt signaling pathway,M1,1,0
+1,-3.3,GO:0008285,negative regulation of cell population proliferation,M1,1,0
+1,-4.3,GO:0060485,mesenchyme development,M1,1,0
+1,-3.6,GO:0090090,negative regulation of canonical Wnt signaling pathway,M1,1,0
+1,-6.8,R-HSA-1474244,Extracellular matrix organization,M1,1,0
+1,-2.8,GO:0007423,sensory organ development,M1,1,0
+1,-3.8,GO:2000147,positive regulation of cell motility,M1,1,0
+1,-2.6,GO:0060562,epithelial tube morphogenesis,M1,1,0
+1,-2,GO:0044089,positive regulation of cellular component biogenesis,M1,1,0
+1,-2.3,GO:0043254,regulation of protein-containing complex assembly,M1,1,0
+1,-3.4,GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,M1,1,0
+1,-6.7,R-HSA-2022090,Assembly of collagen fibrils and other multimeric structures,M1,1,0
+1,-4.2,GO:0060993,kidney morphogenesis,M1,1,0
+1,-3.1,GO:0001501,skeletal system development,M1,1,0
+1,-6.2,GO:0007492,endoderm development,M1,1,0
+1,-3.9,GO:0001822,kidney development,M1,1,0
+1,-3.5,GO:0048592,eye morphogenesis,M1,1,0
+1,-5.8,GO:0002063,chondrocyte development,M1,1,0
